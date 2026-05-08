@@ -3,15 +3,15 @@ import time
 import pandas as pd
 import glob
 
-print("Running crmls_listed.py for all months from January 2024 to March 2026...")
+#print("Running crmls_listed.py for all months from January 2024 to April 2026...")
 
 #for year in range(2024, 2027):
 #    for month in range(1, 13):
-#        if year == 2026 and month > 3:
+#        if year == 2026 and month > 4:
 #            break
 #        print(f"Processing data for {year}-{month:02d}...")
-#        #subprocess.run(['python', 'crmls_listed.py', str(year), str(month)])
-#        subprocess.run(['python', 'crmls_sold.py', str(year), str(month)])
+#        subprocess.run(['python', 'crmls_listed.py', str(year), str(month)])
+#        #subprocess.run(['python', 'crmls_sold.py', str(year), str(month)])
 #        time.sleep(1)  # Add a delay of 1 second between each execution
 
 print("Combine data for all months from January 2024 to March 2026...")
