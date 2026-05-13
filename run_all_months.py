@@ -14,7 +14,7 @@ import glob
 #        #subprocess.run(['python', 'crmls_sold.py', str(year), str(month)])
 #        time.sleep(1)  # Add a delay of 1 second between each execution
 
-print("Combine data for all months from January 2024 to March 2026...")
+print("Combine data for all months from January 2024 to April 2026...")
 
 print("Starting to merge Listed data...")
 listed_files = glob.glob('CRMLSListing*.csv') 
